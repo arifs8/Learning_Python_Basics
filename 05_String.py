@@ -1,0 +1,17 @@
+llm_response =" The test PASSED with 98% confidence  "
+
+print(llm_response)
+print(llm_response.strip())
+print(llm_response.strip().lower())
+print(llm_response.strip().upper())
+print(llm_response.strip().title())
+print(llm_response.replace("PASSED","FAILED"))
+print(llm_response.replace("PASSED","FAILED").strip())
+print(llm_response.replace("PASSED","FAILED").strip().title())
+print(llm_response.replace("PASSED","FAILED").strip().title().replace(" ","_"))
+print(llm_response.replace("PASSED","FAILED").strip().title().replace(" ","_").replace("%","percent"))
+print("--------------------------")
+print(llm_response)
+print("PASSED" in llm_response)
+print(f"FAILED" in llm_response)
+print("Passed" in llm_response)
